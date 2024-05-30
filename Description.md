@@ -14,7 +14,7 @@
 
 # 删除容器: docker rm -f [your_id]
 
-# 删除容器目录: rm -r [directory-name]  rm -rf Lawservice
+# 删除容器目录: rm -r [directory-name]  rm -rf 
 
 # 运行 这个node项目: docker run -it -d -p 3040:3040 -v $(pwd):/usr/src/app -w /usr/src/app node:19 /bin/bash -c "cd Lawserver && npm install && npm start"
 
